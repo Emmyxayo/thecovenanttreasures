@@ -778,6 +778,16 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
 .card--media.staff .meta { color: var(--red); }
 .card--media .card-body { flex: 1; }
 
+/* ------------------------------------------------------------------ map */
+
+.map-frame {
+  border: 1px solid var(--rule);
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: var(--navy-tint);
+}
+.map-frame iframe { display: block; width: 100%; height: 100%; }
+
 .portal-panel {
   background: var(--navy);
   color: var(--paper);
@@ -2139,10 +2149,17 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
       <div>
         <!-- EDIT ME: replace this with the real Google Maps embed for the school.
              Google Maps > find the school > Share > Embed a map > copy the iframe. -->
-        <div class="figure">
-          <p style="margin:0;text-align:center;color:var(--muted)">Map embed goes here.<br>
-            Zone 3, Lane 2, Olose (Unity Estate),<br>Off Akala Express Way, Kuola, Ibadan.</p>
+        <div class="map-frame">
+          <iframe
+            src="https://www.google.com/maps?q=7.3633787,3.8132459&hl=en&z=16&output=embed"
+            title="Map showing Covenant Treasures International School, Kuola, Ibadan"
+            width="100%" height="100%" style="border:0"
+            loading="lazy" allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+        <p style="margin-top:1rem;font-size:0.95rem">
+          <a href="https://maps.app.goo.gl/uViBhKnf7iQfvLZKA" target="_blank" rel="noopener">Open in Google Maps for directions</a>
+        </p>
       </div>
     </div>
   </div>

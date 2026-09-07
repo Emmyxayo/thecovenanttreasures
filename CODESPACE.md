@@ -23,16 +23,20 @@ The script converts them (HEIC included), drops them into
 Use `python3 add-photos.py --dry-run` to see what it would do without
 changing anything.
 
-## Naming matters
+## Captions
 
-The filename becomes the caption, so name the files before you upload:
+You don't need to rename anything. After converting, the script asks you for a
+caption for each photo, one at a time, and prints the converted file path so you
+can click it open in the editor to see which one you're looking at.
 
-    inter-house-sports-day.heic   ->  "Inter house sports day"
-    primary-4-science-class.jpg   ->  "Primary 4 science class"
+Press Enter on its own to skip a photo — it won't be added.
 
 Captions are what a screen reader announces, what Google indexes for image
-search, and what shows under the photo in the lightbox. `IMG_4412.HEIC`
-becomes the caption "Img 4412", which helps nobody.
+search, and what shows under the photo in the lightbox, so a few real words
+beat "Img 4412".
+
+Use `python3 add-photos.py --auto` to skip the questions entirely and caption
+everything "School photo", then fix the `alt=""` text in index.html later.
 
 ## Notes
 

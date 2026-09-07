@@ -72,6 +72,8 @@
   :root { --gutter: 2.5rem; --section-y: 7rem; }
 }
 
+@media (min-width: 1400px) { :root { --max: 1280px; } }
+
 /* --------------------------------------------------------- reset + base */
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -316,7 +318,7 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
 .site-nav a.btn { display: flex; justify-content: center; }
 .site-nav a.btn--primary:hover { color: var(--paper); }
 
-@media (max-width: 1079px) {
+@media (max-width: 1219px) {
   .site-nav {
     display: none;
     position: absolute; left: 0; right: 0; top: 100%;
@@ -329,7 +331,7 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
   .site-nav .btn { width: 100%; margin-top: 1.1rem; }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1220px) {
   .nav-toggle { display: none; }
   .site-nav {
     display: flex !important;
@@ -348,7 +350,7 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
   }
   .site-nav .btn:hover { box-shadow: none; }
 }
-@media (min-width: 1080px) and (max-width: 1280px) {
+@media (min-width: 1220px) {
   .site-nav, .site-nav ul { gap: 1.05rem; }
   .site-nav a { font-size: 0.85rem; }
   .site-nav .btn { padding: 0.65rem 1.1rem; font-size: 0.85rem; }
@@ -776,6 +778,15 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
 .card--media.staff .meta { color: var(--red); }
 .card--media .card-body { flex: 1; }
 
+.portal-panel {
+  background: var(--navy);
+  color: var(--paper);
+  border-top: 4px solid var(--gold);
+  padding: 2.4rem 2rem;
+}
+.portal-panel h3 { color: var(--paper); }
+.portal-panel p { color: rgba(255,253,248,0.85); margin-bottom: 1.5rem; }
+
 /* ------------------------------------------------------------------- CTA */
 
 .cta-band {
@@ -1171,6 +1182,7 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
         <li><a href="#campus-life" data-nav="campus-life">Campus Life</a></li>
         <li><a href="#news" data-nav="news">News</a></li>
         <li><a href="#gallery" data-nav="gallery">Gallery</a></li>
+        <li><a href="#portal" data-nav="portal">Portal</a></li>
         <li><a href="#contact" data-nav="contact">Contact</a></li>
       </ul>
       <a class="btn btn--primary" href="#admissions" data-anchor="apply">Start application</a>
@@ -2025,6 +2037,75 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
 
 </section>
 
+<section class="page" id="portal" data-title="Portal | Covenant Treasures International School" data-desc="The Edves student and parent portal for Covenant Treasures International School, Ibadan. Check results and attendance, view fee statements, pay online and follow school announcements.">
+
+<section class="page-head">
+  <div class="wrap">
+    <h1>Student and parent portal</h1>
+    <p>Results, attendance, fees and school announcements, all in one place.</p>
+  </div>
+</section>
+
+<section class="band-paper">
+  <div class="wrap">
+    <div class="split">
+      <div>
+        <hr class="rule-gold">
+        <h2>Log in to the portal</h2>
+        <p>The school runs on Edves. Students and parents sign in to check results and attendance, view fee
+          statements and pay online, and follow school announcements as they are posted.</p>
+        <p>Login details are issued by the school office. If you have not received yours, call
+          <a href="tel:+2349123043411">+234 912 304 3411</a> and we will sort it out.</p>
+        <div class="btn-row" style="margin-top:2rem">
+          <a class="btn btn--primary" href="https://ctis.edves.net/mystudent" target="_blank" rel="noopener">Student portal</a>
+          <a class="btn btn--ghost" href="https://ctis.edves.net/myparent" target="_blank" rel="noopener">Parent portal</a>
+          <a class="btn btn--ghost" href="https://ctis.edves.net" target="_blank" rel="noopener">Staff sign in</a>
+        </div>
+      </div>
+      <div class="portal-panel">
+        <h3>On your phone</h3>
+        <p>The Edves app puts the same portal in your pocket, with a notification the moment a result, a
+          statement or an announcement is posted.</p>
+        <div class="btn-row">
+          <a class="btn btn--onmaroon" href="https://apps.apple.com/ng/app/edves/id6444702319" target="_blank" rel="noopener">App Store</a>
+          <a class="btn btn--onmaroon" href="https://play.google.com/store/apps/details?id=net.edves.android" target="_blank" rel="noopener">Google Play</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band-cream">
+  <div class="wrap">
+    <hr class="rule-gold">
+    <h2>What you can do there</h2>
+    <p>Everything a parent normally has to ring the office for, available the moment it is ready.</p>
+    <div class="grid grid--3" style="margin-top:2rem">
+      <article class="card"><h3>Results and attendance</h3><p>Termly results, continuous assessment scores and a day-by-day attendance record for each child.</p></article>
+      <article class="card"><h3>Statements and payment</h3><p>See what is outstanding on the fee account, pay online, and keep the receipt in one place.</p></article>
+      <article class="card"><h3>Announcements</h3><p>Term dates, holidays, events and anything else the school needs parents to know, posted as it happens.</p></article>
+      <article class="card"><h3>CBT and self-assessment</h3><p>Computer-based tests and practice questions students can work through on their own between lessons.</p></article>
+      <article class="card"><h3>Coding and web design</h3><p>CodeCraft lessons within the portal, taking students from first principles through to building for the web.</p></article>
+      <article class="card"><h3>Not enrolled yet?</h3><p>Portal accounts are created once a child has a place with us. <a href="#admissions">Start an application</a> and we will set yours up.</p></article>
+    </div>
+  </div>
+</section>
+
+
+<section class="cta-band">
+  <div class="wrap wrap--narrow">
+    <h2>Come and see the school for yourself</h2>
+    <p>Book a campus tour on a school day, meet the teachers, and sit in on a lesson. No appointment fee.</p>
+    <div class="btn-row">
+      <a class="btn btn--gold" href="#admissions" data-anchor="apply">Start an application</a>
+      <a class="btn btn--onmaroon" href="#contact">Book a tour</a>
+    </div>
+  </div>
+</section>
+
+
+</section>
+
 <section class="page" id="contact" data-title="Contact Us | Covenant Treasures International School" data-desc="Call, WhatsApp, email or visit Covenant Treasures International School, Off Akala Express Way, Kuola, Ibadan.">
 
 <section class="page-head">
@@ -2351,6 +2432,7 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
     "campus-life": { t: 'Campus Life | Covenant Treasures International School', d: '24-hour CCTV, reliable power, certified teachers and well-equipped classrooms, plus the clubs, sports and activities that fill the school week.' },
     "news": { t: 'News and Events | Covenant Treasures International School', d: 'Term dates, results, competitions and events at Covenant Treasures International School, Ibadan.' },
     "gallery": { t: 'Gallery | Covenant Treasures International School', d: 'Photographs of the campus, classrooms, events and sports at Covenant Treasures International School, Ibadan.' },
+    "portal": { t: 'Portal | Covenant Treasures International School', d: 'The Edves student and parent portal for Covenant Treasures International School, Ibadan. Check results and attendance, view fee statements, pay online and follow school announcements.' },
     "contact": { t: 'Contact Us | Covenant Treasures International School', d: 'Call, WhatsApp, email or visit Covenant Treasures International School, Off Akala Express Way, Kuola, Ibadan.' }
   };
   var DEFAULT = "home";

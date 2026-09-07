@@ -1984,26 +1984,6 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
     <!-- To add a photo: run optimize-gallery.py, then paste the <figure> line it
          prints anywhere in this list. Newest first reads best. -->
     <div class="gallery">
-      <figure><img src="assets/img/gallery/school-photo.webp" alt="School photo" width="1400" height="2097" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-2.webp" alt="School photo" width="1400" height="2097" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-3.webp" alt="School photo" width="1400" height="935" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-4.webp" alt="School photo" width="1400" height="935" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-5.webp" alt="School photo" width="1400" height="935" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-6.webp" alt="School photo" width="1400" height="2097" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-7.webp" alt="School photo" width="1400" height="935" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-8.webp" alt="School photo" width="1400" height="935" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-9.webp" alt="School photo" width="1400" height="935" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-10.webp" alt="School photo" width="1400" height="935" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-11.webp" alt="School photo" width="1400" height="935" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-12.webp" alt="School photo" width="1400" height="935" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-13.webp" alt="School photo" width="1400" height="935" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-14.webp" alt="School photo" width="1400" height="935" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-15.webp" alt="School photo" width="1400" height="935" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-16.webp" alt="School photo" width="1400" height="2097" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-17.webp" alt="School photo" width="1400" height="2097" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-18.webp" alt="School photo" width="1400" height="935" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-19.webp" alt="School photo" width="1400" height="935" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/img/gallery/school-photo-20.webp" alt="School photo" width="1400" height="935" loading="lazy" decoding="async"></figure>
       <figure><img src="assets/img/gallery/character-parade-2026.webp" alt="Basic Two pupils dressed as doctors, pilots, lawyers and chefs for Character Parade Roleplay Day" width="1280" height="960" loading="lazy" decoding="async"></figure>
       <figure><img src="assets/img/gallery/basic-school-group.webp" alt="Basic school pupils gathered on the school steps" width="1280" height="960" loading="lazy" decoding="async"></figure>
       <figure><img src="assets/img/gallery/college-students-group.webp" alt="College students of Covenant Treasures International School" width="960" height="1280" loading="lazy" decoding="async"></figure>
